@@ -1,0 +1,82 @@
+- title: Method call hierarchy
+  categories: keyboard-shortcut
+  image: /images/method_call_hierarchy.png
+  shortcut: <span class="shortcut">⌃</span><span class="shortcut">⌥</span> + <span class="shortcut">h</span>
+  excerpt: Remember the old days of tracing through code? Was that yesterday? Then use this.
+
+- title: Peek perimeter tool buttons
+  categories: keyboard-shortcut
+  image: /images/peek-perimeter-tool-buttons.png
+  shortcut: double tap and hold <span class="shortcut">⌘</span>
+  excerpt: Take a leap of faith and permanently hide the perimeter buttons (e.g., Project, Structure, Gradle, Build Variants). Peek when you need them.
+
+- title: Project tree
+  categories: keyboard-shortcut
+  image: /images/project-tree.png
+  shortcut: <span class="shortcut">⌘</span> + <span class="shortcut">1</span>
+  excerpt: Toggle the project tree, then quick filter for best results. But pros upgrade to the navigation bar.
+
+- title: Recent files
+  categories: keyboard-shortcut
+  image: /images/recent_files.png
+  shortcut: <span class="shortcut">⌘</span> + <span class="shortcut">e</span>
+  excerpt: It's like you're suffering from a concussion if you don't use this on a regular basis.
+
+- title: Show usages
+  categories: keyboard-shortcut
+  image: /images/show_usages.png
+  shortcut: <span class="shortcut">⌥</span><span class="shortcut">⌘</span> + <span class="shortcut">F7</span>
+  excerpt: Lightweight in-line popup. Project-level scope on first call. This is not the heavyweight brother "Find Usages" that opens the docked bottom window.
+
+- title:  Hide all tool windows
+  categories: keyboard-shortcut
+  image: /images/hide-all-tool-windows.png
+  shortcut: <span class="shortcut">⇧</span><span class="shortcut">⌘</span> + <span class="shortcut">F12</span>
+  excerpt: Zen and the art of motorcycle maintenance. Tools out of sight and out of mind. Focus on what matters.
+
+- title:  Highlight usages in file
+  categories: keyboard-shortcut
+  image: /images/highlight-usages.png
+  shortcut: <span class="shortcut">⇧</span><span class="shortcut">⌘</span> + <span class="shortcut">F7</span>
+  excerpt: Your Microsoft Word days has you in the bad habit of CTRL-F'ing for words. This shortcut makes the all the symbol usages glow like fireflies at night. Pair it with ⌘G to move to the next occurence.
+
+- title:  Navigation bar
+  categories: keyboard-shortcut
+  image: /images/navigation_bar.png
+  shortcut: <span class="shortcut">⌘</span> + <span class="shortcut">↑</span>
+  excerpt: "Stop using the project tree. Substitute this for all things files: create, find, rename."
+
+- title: Super method or class
+  categories: keyboard-shortcut
+  shortcut: <span class="shortcut">⌘</span> + <span class="shortcut">u</span>
+  excerpt: Inheritance is the worst. Make it bearable. Jump to the super's implementation. Also works with interfaces
+
+- title: Collapse all
+  categories: keyboard-shortcut
+  shortcut: <span class="shortcut">⌥</span><span class="shortcut">⌘</span> + <span class="shortcut">minus</span>
+  excerpt: Collapse all to get a bird's eye view. Then expand methods as you need (⌘+plus).
+
+- title: Fake lambda
+  categories: keyboard-shortcut
+  shortcut: <span class="shortcut">⌘</span> + <span class="shortcut">minus</span>
+  excerpt: Anonymous classes are annoying. Fake lambdas make it more bearable. Expand/collapse as you need (plus/minus).
+
+- title: File structure
+  categories: keyboard-shortcut
+  shortcut: <span class="shortcut">⌘</span> + <span class="shortcut">F12</span>
+  excerpt: You need a lay of the land. Or quickly jump down to a method. Plus, frequenting the bird's eye view will have it ingrained in your head in no time.
+
+- title: Go to line number
+  categories: keyboard-shortcut
+  shortcut: <span class="shortcut">⌘</span> + <span class="shortcut">L</span>
+  excerpt: You're pairing and she yells "line 997, you idiot". But you navigate like a champ.
+
+- title:  Go to related unit test
+  categories: keyboard-shortcut
+  shortcut: <span class="shortcut">⇧</span><span class="shortcut">⌘</span> + <span class="shortcut">t</span>
+  excerpt: Related links are all the rage. Use them well.
+
+- title: Implementations
+  categories: keyboard-shortcut
+  shortcut: <span class="shortcut">⌥</span><span class="shortcut">⌘</span> + <span class="shortcut">b</span>
+  excerpt: Interface abstractions make code navigation harder. Make it a breeze. Jump to implementations of method calls rather than empty interface declarations.

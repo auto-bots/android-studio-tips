@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% for post in site.data.tips %}
+{% assign loopindex = forloop.index | modulo: 4 %}
+
+{% if loopindex == 1 %}
+<div class="row margin-b-2">
+{% endif %}
+
+  <div class="col-sm-6 col-md-3">
+    {% if post.image %}
+    <img class="img-responsive thumbnail" src={{ post.image | prepend:site.baseurl }} alt="">
+    {% endif %}
+    <div class="caption">
+      <h4>{{ post.title }}</h4>
+      <h4>({{ post.shortcut }})</h4>
+      <p>{{ post.excerpt }}</p>
+    </div>
+  </div>
+
+{% if loopindex == 0 %}
+</div>
+{% endif %}
+
+{% endfor %}
